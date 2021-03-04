@@ -1,0 +1,750 @@
+{
+  "contractName": "Talant",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "INITIAL_SUPPLY",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"INITIAL_SUPPLY\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/jehunha/Desktop/talanttoken/contracts/Talant.sol\":\"Talant\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/jehunha/Desktop/talanttoken/contracts/Talant.sol\":{\"keccak256\":\"0x9ccc57fa85e86bbf7c606c62f332c635914436973d4a638639dcb2e4baf0c797\",\"urls\":[\"bzz-raw://f6378d8fe9801dbbee338b01520af9644f2bd1e8182de0fb6f02958090b6947c\",\"dweb:/ipfs/QmSwz2pk5yhwBKxG1B6qRZc4E7WeBmTj4n6YwxGkGL7J8Q\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061024c806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde03146100515780632ff2e9dc146100d4578063313ce567146100f257806395d89b4114610110575b600080fd5b610059610193565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009957808201518184015260208101905061007e565b50505050905090810190601f1680156100c65780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dc6101cc565b6040518082815260200191505060405180910390f35b6100fa6101d9565b6040518082815260200191505060405180910390f35b6101186101de565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561015857808201518184015260208101905061013d565b50505050905090810190601f1680156101855780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6040518060400160405280600c81526020017f54616c616e7420546f6b656e000000000000000000000000000000000000000081525081565b601265060ecea286a80281565b601281565b6040518060400160405280600381526020017f54414c00000000000000000000000000000000000000000000000000000000008152508156fea265627a7a72315820aa06bc40807c38ac4f4d535ec0b9dbfcafc356475d3746c4ac11414e119474dd64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde03146100515780632ff2e9dc146100d4578063313ce567146100f257806395d89b4114610110575b600080fd5b610059610193565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009957808201518184015260208101905061007e565b50505050905090810190601f1680156100c65780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dc6101cc565b6040518082815260200191505060405180910390f35b6100fa6101d9565b6040518082815260200191505060405180910390f35b6101186101de565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561015857808201518184015260208101905061013d565b50505050905090810190601f1680156101855780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6040518060400160405280600c81526020017f54616c616e7420546f6b656e000000000000000000000000000000000000000081525081565b601265060ecea286a80281565b601281565b6040518060400160405280600381526020017f54414c00000000000000000000000000000000000000000000000000000000008152508156fea265627a7a72315820aa06bc40807c38ac4f4d535ec0b9dbfcafc356475d3746c4ac11414e119474dd64736f6c63430005100032",
+  "sourceMap": "58:487:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:487:1;;;;;;;",
+  "deployedSourceMap": "58:487:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:487:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;99:44;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;99:44:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;301:66;;;:::i;:::-;;;;;;;;;;;;;;;;;;;226:34;;;:::i;:::-;;;;;;;;;;;;;;;;;;;166:37;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;166:37:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;99:44;;;;;;;;;;;;;;;;;;;:::o;301:66::-;258:2;339:17;:28;301:66;:::o;226:34::-;258:2;226:34;:::o;166:37::-;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.2; // solidity 0.5.2 버전 사용.\n\ncontract Talant { // contract 이름\n    string public constant name = \"Talant Token\"; // 토큰 이름\n    string public constant symbol = \"TAL\"; // 토큰 심볼\n    uint public constant decimals = 18; // 소수점 18자리까지 사용\n    uint public constant INITIAL_SUPPLY = 666066606660 * 10 * decimals; // 초기 발행량 네로황제를 나타내는 숫자 666\n    string constant test = \"You can't see this\"; // public 표시가 없으면 이 변수는 확인할 수 없다.\n}",
+  "sourcePath": "/Users/jehunha/Desktop/talanttoken/contracts/Talant.sol",
+  "ast": {
+    "absolutePath": "/Users/jehunha/Desktop/talanttoken/contracts/Talant.sol",
+    "exportedSymbols": {
+      "Talant": [
+        54
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54
+        ],
+        "name": "Talant",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "id": 37,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "99:44:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_memory",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "99:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "54616c616e7420546f6b656e",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "129:14:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_ea707d9edb49bbff4be118a44436df389c05e53dc2c6c28ade1732c9d86d14dd",
+                "typeString": "literal_string \"Talant Token\""
+              },
+              "value": "Talant Token"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 40,
+            "name": "symbol",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "166:37:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_memory",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 38,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "166:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "54414c",
+              "id": 39,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "198:5:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_0d59b7cba3f30f57ccdd5ebbce3c477e313e99827c51a294d58a08c66a9c730c",
+                "typeString": "literal_string \"TAL\""
+              },
+              "value": "TAL"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 43,
+            "name": "decimals",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "226:34:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 41,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "226:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "3138",
+              "id": 42,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "258:2:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_18_by_1",
+                "typeString": "int_const 18"
+              },
+              "value": "18"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 50,
+            "name": "INITIAL_SUPPLY",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "301:66:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 44,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "301:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "commonType": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              },
+              "id": 49,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "lValueRequested": false,
+              "leftExpression": {
+                "argumentTypes": null,
+                "commonType": {
+                  "typeIdentifier": "t_rational_6660666066600_by_1",
+                  "typeString": "int_const 6660666066600"
+                },
+                "id": 47,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "leftExpression": {
+                  "argumentTypes": null,
+                  "hexValue": "363636303636363036363630",
+                  "id": 45,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "339:12:1",
+                  "subdenomination": null,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_666066606660_by_1",
+                    "typeString": "int_const 666066606660"
+                  },
+                  "value": "666066606660"
+                },
+                "nodeType": "BinaryOperation",
+                "operator": "*",
+                "rightExpression": {
+                  "argumentTypes": null,
+                  "hexValue": "3130",
+                  "id": 46,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "354:2:1",
+                  "subdenomination": null,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_10_by_1",
+                    "typeString": "int_const 10"
+                  },
+                  "value": "10"
+                },
+                "src": "339:17:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_rational_6660666066600_by_1",
+                  "typeString": "int_const 6660666066600"
+                }
+              },
+              "nodeType": "BinaryOperation",
+              "operator": "*",
+              "rightExpression": {
+                "argumentTypes": null,
+                "id": 48,
+                "name": "decimals",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 43,
+                "src": "359:8:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "src": "339:28:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 53,
+            "name": "test",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "433:43:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_memory",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 51,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "433:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "596f752063616e2774207365652074686973",
+              "id": 52,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "456:20:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_f524c85bd106fd2ef649e2e1b3cf16c9af6771bf0e8dadc336cacbfe3192fbf9",
+                "typeString": "literal_string \"You can't see this\""
+              },
+              "value": "You can't see this"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 55,
+        "src": "58:487:1"
+      }
+    ],
+    "src": "0:545:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/jehunha/Desktop/talanttoken/contracts/Talant.sol",
+      "exportedSymbols": {
+        "Talant": [
+          54
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".2"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            54
+          ],
+          "name": "Talant",
+          "scope": 55
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": true,
+              "name": "name",
+              "scope": 54,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 35,
+                "name": "ElementaryTypeName",
+                "src": "99:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "54616c616e7420546f6b656e",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"Talant Token\"",
+                  "value": "Talant Token"
+                },
+                "id": 36,
+                "name": "Literal",
+                "src": "129:14:1"
+              }
+            ],
+            "id": 37,
+            "name": "VariableDeclaration",
+            "src": "99:44:1"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "symbol",
+              "scope": 54,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 38,
+                "name": "ElementaryTypeName",
+                "src": "166:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "54414c",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"TAL\"",
+                  "value": "TAL"
+                },
+                "id": 39,
+                "name": "Literal",
+                "src": "198:5:1"
+              }
+            ],
+            "id": 40,
+            "name": "VariableDeclaration",
+            "src": "166:37:1"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "decimals",
+              "scope": 54,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 41,
+                "name": "ElementaryTypeName",
+                "src": "226:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3138",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 18",
+                  "value": "18"
+                },
+                "id": 42,
+                "name": "Literal",
+                "src": "258:2:1"
+              }
+            ],
+            "id": 43,
+            "name": "VariableDeclaration",
+            "src": "226:34:1"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "INITIAL_SUPPLY",
+              "scope": 54,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 44,
+                "name": "ElementaryTypeName",
+                "src": "301:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "commonType": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "operator": "*",
+                  "type": "uint256"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "commonType": {
+                        "typeIdentifier": "t_rational_6660666066600_by_1",
+                        "typeString": "int_const 6660666066600"
+                      },
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "operator": "*",
+                      "type": "int_const 6660666066600"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "363636303636363036363630",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 666066606660",
+                          "value": "666066606660"
+                        },
+                        "id": 45,
+                        "name": "Literal",
+                        "src": "339:12:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "3130",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "number",
+                          "type": "int_const 10",
+                          "value": "10"
+                        },
+                        "id": 46,
+                        "name": "Literal",
+                        "src": "354:2:1"
+                      }
+                    ],
+                    "id": 47,
+                    "name": "BinaryOperation",
+                    "src": "339:17:1"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 43,
+                      "type": "uint256",
+                      "value": "decimals"
+                    },
+                    "id": 48,
+                    "name": "Identifier",
+                    "src": "359:8:1"
+                  }
+                ],
+                "id": 49,
+                "name": "BinaryOperation",
+                "src": "339:28:1"
+              }
+            ],
+            "id": 50,
+            "name": "VariableDeclaration",
+            "src": "301:66:1"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "test",
+              "scope": 54,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 51,
+                "name": "ElementaryTypeName",
+                "src": "433:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "596f752063616e2774207365652074686973",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"You can't see this\"",
+                  "value": "You can't see this"
+                },
+                "id": 52,
+                "name": "Literal",
+                "src": "456:20:1"
+              }
+            ],
+            "id": 53,
+            "name": "VariableDeclaration",
+            "src": "433:43:1"
+          }
+        ],
+        "id": 54,
+        "name": "ContractDefinition",
+        "src": "58:487:1"
+      }
+    ],
+    "id": 55,
+    "name": "SourceUnit",
+    "src": "0:545:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1614846919343": {
+      "events": {},
+      "links": {},
+      "address": "0x1B99EBeC29a7f9727d2C403437911a2693B0Eb03",
+      "transactionHash": "0x62e901bdc7a6b06bbcabb09bea575e583adf758e92fd54bab8236ad6370cd35e"
+    }
+  },
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-04T09:35:40.372Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
