@@ -13,6 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "@truffle/hdwallet-provider": "^1.2.2",
     "openzeppelin-solidity": "^3.4.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ganache": "^2.0.0",
+    "hardhat": "^2.1.1",
+    "mocha": "^7.2.0"
   }
 }
